@@ -38,3 +38,13 @@
   font-size: 0.6em;
   font-weight: bolder;
 }
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-image img {
+  width: 100%;
+  max-width: 100%;
+}
