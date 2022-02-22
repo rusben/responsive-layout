@@ -38,7 +38,8 @@ body {
 
 #menu > ul > li {
   display: inline-block;
-  padding: 0.25em;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
 }
 
 #main {
@@ -64,6 +65,7 @@ body {
 #content {
   padding: 1em;
   display: grid;
+  grid-column-gap: 2em;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
